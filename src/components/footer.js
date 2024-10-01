@@ -23,7 +23,7 @@ function Footer() {
         flexDirection: 'row' 
       }}>
         <div style={{ textAlign: 'left', marginLeft: '20px', fontSize: '14px', color: '#ffffff' }}>
-          © 2023. All rights reserved.
+          © 2024. All rights reserved.
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
           <a href="https://github.com" style={{ marginRight: '10px', color: '#ffffff', fontSize: '20px' }} onMouseOver={(e) => e.target.style.color = '#ffffff'} onMouseOut={(e) => e.target.style.color = '#ffffff'}>
