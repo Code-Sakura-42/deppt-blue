@@ -1,0 +1,60 @@
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  header div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  header button {
+    width: 100%;
+    text-align: center;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  section div {
+    padding: 10px 20px;
+  }
+
+  section h1 {
+    font-size: 28px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  section a {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div div {
+    margin-top: 10px;
+  }
+}
